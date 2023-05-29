@@ -13,7 +13,7 @@ typedef int tPosL;
 
 typedef struct {
     tItemL data[MAX];
-    tPosL lastPos;
+    tPosL LastPos;
 } tList;
 
 /* Cabeceras
