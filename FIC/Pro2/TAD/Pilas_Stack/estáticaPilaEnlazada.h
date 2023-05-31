@@ -22,8 +22,8 @@ typedef struct Stack {
  */
 bool isEmptyStack(tStack S);
 void createEmptyStack(tStack *S);
-bool push(tItemS d, tStack *S);
-void pop(tStack *S);
-tItemS peek(tStack S);
+bool push(tItemS d, tStack *S); //añade elemento
+void pop(tStack *S); //borra elemento
+tItemS peek(tStack S); //recupera elemento de la cima
 
 #endif //TAD_ESTATICA_H
