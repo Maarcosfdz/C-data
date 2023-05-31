@@ -1,5 +1,5 @@
 #include "listaOrdenadaParaPrioridades.h"
-
+//mirarmellor os apuntes
 #include <stdbool.h>
 #include <stdlib.h>
 
