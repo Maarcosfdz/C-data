@@ -7,7 +7,7 @@
 #define LNULL NULL
 #define MAXPRIO 5 // Máximo nivel de prioridad
 
-typedef int tPriority;
+typedef int tPriority; //nos apuntes usan unsigned char
 
 typedef struct tItemL {
     tPriority prio;
