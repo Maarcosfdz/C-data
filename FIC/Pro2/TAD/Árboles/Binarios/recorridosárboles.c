@@ -13,7 +13,7 @@ void preorder(tBinTree T){
     if(T!=TNULL) {
         printf(" %d ", T->data);
         preorder(T->left);
-        preorder(T->right);
+        preorder(T->right); //todo onde pon left e todo eso tamén se pode poñer rollo rightchild e leftchild que quda bn e é unha funcióin que xa está feita
     }
 }
 
