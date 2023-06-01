@@ -9,6 +9,7 @@
 void preorder(tBinTree T);
 void inorder(tBinTree T);
 void postorder(tBinTree T);
+void breath(tBinTtree T);
 
 // FUNCIONES EXTRA
 int countNodes(tBinTree T);                             // Cuentas cuantos nodos hay en el árbol
