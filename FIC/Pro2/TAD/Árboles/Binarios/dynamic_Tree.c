@@ -11,7 +11,7 @@ void createEmptyTree(tBinTree *T) {
 
 bool createNode(tBinTree *T) {
     *T = malloc(sizeof(**T));
-    return *p != TNULL;
+    return *T != TNULL;
 }
 
 bool buildTree(tBinTree LTree, tItemT d, tBinTree RTree, tBinTree *T) {
