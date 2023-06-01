@@ -46,6 +46,23 @@ void postorder(tBinTree T){
     }
 }
 
+void breath(tBinTree T){
+	tQueue queue;
+	tBinTree subTree;
+	createEmptyQueue(&queue);
+	if(!isEmptyTree(T))
+		enqueue(T; &queue);
+	while (!isEmptyQUeue (queue)){
+		subTree = front(queue);
+		dequeue(&queue);
+		printf("%i", Root(subTree));
+		if(!isEmptyTree(LeftChild(subTree)))
+			enqueue(leftChild(subTree, &queue);
+		if(!isEmptyTree(RightChild(subTree)))
+			enqueue(RightChild(subTree), &queue);
+	}	
+}
+				
 // FUNCIONES EXTRA
 
 int countNodes(tBinTree T) {
