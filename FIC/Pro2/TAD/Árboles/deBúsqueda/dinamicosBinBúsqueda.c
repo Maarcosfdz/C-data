@@ -28,7 +28,7 @@ tBST findKey(tBST tree, tKey key) { // Retornará un árbol cuya raíz sea la cl
 }
 
 bool createBSTNode(tBSTPos* p,tKey key) {
-    *p = malloc(sizeof(struct tBSTNode));
+    *p = malloc(sizeof(**p));
 
     if(*p != NULLBST) {
         (*p)->key = key;
