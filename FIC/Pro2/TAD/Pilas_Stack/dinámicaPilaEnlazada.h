@@ -13,7 +13,7 @@ typedef struct tNodeS *tPosS;
 
 struct tNodeS {
     tItemS data;
-    tPosS down;
+    tPosS next;
 };
 
 typedef tPosS tStack;
