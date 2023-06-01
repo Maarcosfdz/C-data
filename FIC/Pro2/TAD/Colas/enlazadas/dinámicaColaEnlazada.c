@@ -14,7 +14,7 @@ void createEmptyQueue(tQueue *Q) {
 }
 
 bool createNode(tPosQ *p) {
-    *p = malloc(sizeof(struct tNodeQ));
+    *p = malloc(sizeof(**p));
     return *p != QNULL;
 }
 
