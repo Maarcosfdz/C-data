@@ -34,7 +34,7 @@ void pop(tStack *S) {
     tPosS aux;
 
     aux = *S;
-    *S = (*S)->down; // El puntero que apunta a la pila, lo bajamos al siguiente elemento
+    *S = (*S)->next; // El puntero que apunta a la pila, lo bajamos al siguiente elemento
     free(aux); // El elemento que queda por encima lo eliminamos, el último en añadirse, lo eliminamos
 }
 
