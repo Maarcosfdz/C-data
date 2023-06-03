@@ -8,7 +8,7 @@
 
 typedef int tItemL;
 
-typedef struct tNode *tPosL;
+typedef struct tNode* tPosL;
 
 struct tNode {
     tItemL data;
