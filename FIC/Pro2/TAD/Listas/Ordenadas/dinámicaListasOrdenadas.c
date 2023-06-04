@@ -27,7 +27,7 @@ tPosL findPosition(tList L, tItemL d) {
     while((p != LNULL) && (p->data < d)) {
         p = p->next;
     }
-    return p;
+    return p; //esto eatá mal haiq ue poñer un if se d coincide se nn devolvese nulkl
 }
 
 bool insertItem(tItemL d, tList *L) {
