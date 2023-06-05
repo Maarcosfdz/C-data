@@ -173,7 +173,7 @@ bool copyList(tList L, tList *M) {
             deleteList(M);
         }
     }
-
+//esto estña mal teria que volverse a condicion true no if, e de por si estar en false
     return result;
 }
 
